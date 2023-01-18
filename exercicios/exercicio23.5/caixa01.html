@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        /*box level*/
+        h1{
+          /*  display: inline; deixa a caixa inline level*/
+          background-color: blue;
+          height: 300px;
+          width: 300px;
+         /* 
+          border-width: 10px;
+          border-style: solid;
+          border-color:darkslategray;
+          */
+          border: 10px solid darkslategray;
+           /*
+           padding-top: 10px;
+           padding-right: 10PX;
+           padding-bottom: 10px;
+           padding-left: 10px;
+           */
+           padding: 10px;
+
+           margin: 20px auto 40px auto;
+           /*
+           outline-width: 5px;
+           outline-style: dashed;
+           outline-color: black;
+           */
+           outline: 5px dashed black;
+        }
+        /*inline-level*/
+        a{
+            /*display: block; deixa a caixa en box level*/
+            border-width:5px;
+            border-style: solid;
+            border-color: brown;
+            padding-top: 10px;
+           padding-bottom: 10px;
+           padding-left: 10px;
+           padding-right: 10PX;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos de caixas box level</h1>
+    <p>Paragrafos tambem são Exemplos de box level <a href="#">Likn são exemplo de caixas iniline level</a> Vamos ver como esto funciona</p>
+</body>
+</html>
